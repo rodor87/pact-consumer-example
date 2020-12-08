@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest __tests__/ --runInBand",
-    "publish": "node ./pacts/publish.js"
+    "pact:test": "jest __tests__/ --runInBand",
+    "pact:publish": "node ./pacts/publish.js"
   },
   "author": "",
   "license": "ISC",
